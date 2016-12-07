@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1B8F851DC8E17C00C56D8A /* PopoverMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B8F841DC8E17C00C56D8A /* PopoverMap.swift */; };
+		3F5D7AED1DD9FB6F0080B045 /* PopoverHighscore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D7AEC1DD9FB6F0080B045 /* PopoverHighscore.swift */; };
+		3F9933CF1DBE523000EE06BF /* Pods_GeoGuesser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9933CB1DBE4F1300EE06BF /* Pods_GeoGuesser.framework */; };
+		3FA861591DCA13F400B3CC98 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA861581DCA13F400B3CC98 /* ViewControllerExtensions.swift */; };
+		3FEB8EE71DB7B770005D17A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB8EE61DB7B770005D17A7 /* AppDelegate.swift */; };
+		3FEB8EE91DB7B770005D17A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB8EE81DB7B770005D17A7 /* ViewController.swift */; };
+		3FEB8EEC1DB7B770005D17A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEB8EEA1DB7B770005D17A7 /* Main.storyboard */; };
+		3FEB8EEE1DB7B770005D17A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEB8EED1DB7B770005D17A7 /* Assets.xcassets */; };
+		3FEB8EF11DB7B770005D17A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEB8EEF1DB7B770005D17A7 /* LaunchScreen.storyboard */; };
+		3FEB8EFC1DB7B771005D17A7 /* GeoGuesserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB8EFB1DB7B771005D17A7 /* GeoGuesserTests.swift */; };
+		3FEB8F071DB7B771005D17A7 /* GeoGuesserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB8F061DB7B771005D17A7 /* GeoGuesserUITests.swift */; };
+		BA140A84B1B55B0EEAC48497 /* Pods_GeoGuesserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2EE4F4D968F2C81D30E402 /* Pods_GeoGuesserTests.framework */; };
+		C76F7008E40E7CCBFF1703B8 /* Pods_GeoGuesserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF96A381A60228D519445B3 /* Pods_GeoGuesserUITests.framework */; };
+		CFE892EC7C1F996FB80C17F0 /* Pods_GeoGuesser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8D8710EDFECFE641017C03 /* Pods_GeoGuesser.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FEB8EF81DB7B771005D17A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FEB8EDB1DB7B770005D17A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FEB8EE21DB7B770005D17A7;
+			remoteInfo = GeoGuesser;
+		};
+		3FEB8F031DB7B771005D17A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FEB8EDB1DB7B770005D17A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FEB8EE21DB7B770005D17A7;
+			remoteInfo = GeoGuesser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C8F2BDDE2B688A0B785084 /* Pods-GeoGuesserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoGuesserUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoGuesserUITests/Pods-GeoGuesserUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3C8D8710EDFECFE641017C03 /* Pods_GeoGuesser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoGuesser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1B8F841DC8E17C00C56D8A /* PopoverMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverMap.swift; sourceTree = "<group>"; };
+		3F5D7AEC1DD9FB6F0080B045 /* PopoverHighscore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverHighscore.swift; sourceTree = "<group>"; };
+		3F9933CB1DBE4F1300EE06BF /* Pods_GeoGuesser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_GeoGuesser.framework; path = "/Users/student/Library/Developer/Xcode/DerivedData/GeoGuesser-cdopfpnidnacrgeqvsymnncivmnl/Build/Products/Debug-iphonesimulator/Pods_GeoGuesser.framework"; sourceTree = "<absolute>"; };
+		3F9933DA1DBE53A400EE06BF /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		3FA861581DCA13F400B3CC98 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
+		3FEB8EE31DB7B770005D17A7 /* GeoGuesser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoGuesser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEB8EE61DB7B770005D17A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FEB8EE81DB7B770005D17A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FEB8EEB1DB7B770005D17A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FEB8EED1DB7B770005D17A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FEB8EF01DB7B770005D17A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FEB8EF21DB7B770005D17A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEB8EF71DB7B771005D17A7 /* GeoGuesserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoGuesserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEB8EFB1DB7B771005D17A7 /* GeoGuesserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoGuesserTests.swift; sourceTree = "<group>"; };
+		3FEB8EFD1DB7B771005D17A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEB8F021DB7B771005D17A7 /* GeoGuesserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoGuesserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEB8F061DB7B771005D17A7 /* GeoGuesserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoGuesserUITests.swift; sourceTree = "<group>"; };
+		3FEB8F081DB7B771005D17A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5943D89D0336A75BF833CE9A /* Pods-GeoGuesserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoGuesserTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoGuesserTests/Pods-GeoGuesserTests.release.xcconfig"; sourceTree = "<group>"; };
+		7AAFE63D08F7D1E7BC641BDB /* Pods-GeoGuesser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoGuesser.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoGuesser/Pods-GeoGuesser.release.xcconfig"; sourceTree = "<group>"; };
+		8BF96A381A60228D519445B3 /* Pods_GeoGuesserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoGuesserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF7E2DC867BC70367CAEB6A /* Pods-GeoGuesserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoGuesserUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoGuesserUITests/Pods-GeoGuesserUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF1B5CDB43F7E71FA8D84E62 /* Pods-GeoGuesser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoGuesser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoGuesser/Pods-GeoGuesser.debug.xcconfig"; sourceTree = "<group>"; };
+		DF2EE4F4D968F2C81D30E402 /* Pods_GeoGuesserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoGuesserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B71DE4BF1E105B3D7FB329 /* Pods-GeoGuesserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoGuesserTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoGuesserTests/Pods-GeoGuesserTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FEB8EE01DB7B770005D17A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9933CF1DBE523000EE06BF /* Pods_GeoGuesser.framework in Frameworks */,
+				CFE892EC7C1F996FB80C17F0 /* Pods_GeoGuesser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEB8EF41DB7B771005D17A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA140A84B1B55B0EEAC48497 /* Pods_GeoGuesserTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEB8EFF1DB7B771005D17A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76F7008E40E7CCBFF1703B8 /* Pods_GeoGuesserUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FEB8EDA1DB7B770005D17A7 = {
+			isa = PBXGroup;
+			children = (
+				3FEB8EE51DB7B770005D17A7 /* GeoGuesser */,
+				3FEB8EFA1DB7B771005D17A7 /* GeoGuesserTests */,
+				3FEB8F051DB7B771005D17A7 /* GeoGuesserUITests */,
+				3FEB8EE41DB7B770005D17A7 /* Products */,
+				A42B8911F72A7E508114B286 /* Pods */,
+				B56EA845ED16468EE4060CE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FEB8EE41DB7B770005D17A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB8EE31DB7B770005D17A7 /* GeoGuesser.app */,
+				3FEB8EF71DB7B771005D17A7 /* GeoGuesserTests.xctest */,
+				3FEB8F021DB7B771005D17A7 /* GeoGuesserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FEB8EE51DB7B770005D17A7 /* GeoGuesser */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB8EE61DB7B770005D17A7 /* AppDelegate.swift */,
+				3FEB8EE81DB7B770005D17A7 /* ViewController.swift */,
+				3F1B8F841DC8E17C00C56D8A /* PopoverMap.swift */,
+				3F5D7AEC1DD9FB6F0080B045 /* PopoverHighscore.swift */,
+				3FEB8EEA1DB7B770005D17A7 /* Main.storyboard */,
+				3FA861581DCA13F400B3CC98 /* ViewControllerExtensions.swift */,
+				3FEB8EED1DB7B770005D17A7 /* Assets.xcassets */,
+				3FEB8EEF1DB7B770005D17A7 /* LaunchScreen.storyboard */,
+				3FEB8EF21DB7B770005D17A7 /* Info.plist */,
+				3F9933DA1DBE53A400EE06BF /* Header.h */,
+			);
+			path = GeoGuesser;
+			sourceTree = "<group>";
+		};
+		3FEB8EFA1DB7B771005D17A7 /* GeoGuesserTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB8EFB1DB7B771005D17A7 /* GeoGuesserTests.swift */,
+				3FEB8EFD1DB7B771005D17A7 /* Info.plist */,
+			);
+			path = GeoGuesserTests;
+			sourceTree = "<group>";
+		};
+		3FEB8F051DB7B771005D17A7 /* GeoGuesserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB8F061DB7B771005D17A7 /* GeoGuesserUITests.swift */,
+				3FEB8F081DB7B771005D17A7 /* Info.plist */,
+			);
+			path = GeoGuesserUITests;
+			sourceTree = "<group>";
+		};
+		A42B8911F72A7E508114B286 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF1B5CDB43F7E71FA8D84E62 /* Pods-GeoGuesser.debug.xcconfig */,
+				7AAFE63D08F7D1E7BC641BDB /* Pods-GeoGuesser.release.xcconfig */,
+				E1B71DE4BF1E105B3D7FB329 /* Pods-GeoGuesserTests.debug.xcconfig */,
+				5943D89D0336A75BF833CE9A /* Pods-GeoGuesserTests.release.xcconfig */,
+				8CF7E2DC867BC70367CAEB6A /* Pods-GeoGuesserUITests.debug.xcconfig */,
+				18C8F2BDDE2B688A0B785084 /* Pods-GeoGuesserUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B56EA845ED16468EE4060CE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C8D8710EDFECFE641017C03 /* Pods_GeoGuesser.framework */,
+				DF2EE4F4D968F2C81D30E402 /* Pods_GeoGuesserTests.framework */,
+				8BF96A381A60228D519445B3 /* Pods_GeoGuesserUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FEB8EE21DB7B770005D17A7 /* GeoGuesser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEB8F0B1DB7B771005D17A7 /* Build configuration list for PBXNativeTarget "GeoGuesser" */;
+			buildPhases = (
+				1743BB9CB298C92FC40B6220 /* [CP] Check Pods Manifest.lock */,
+				3FEB8EDF1DB7B770005D17A7 /* Sources */,
+				3FEB8EE01DB7B770005D17A7 /* Frameworks */,
+				3FEB8EE11DB7B770005D17A7 /* Resources */,
+				97EA0662AF4EFC6FCDB1E172 /* [CP] Embed Pods Frameworks */,
+				7E8B42C41D2C27FA120210D4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoGuesser;
+			productName = GeoGuesser;
+			productReference = 3FEB8EE31DB7B770005D17A7 /* GeoGuesser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FEB8EF61DB7B771005D17A7 /* GeoGuesserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEB8F0E1DB7B771005D17A7 /* Build configuration list for PBXNativeTarget "GeoGuesserTests" */;
+			buildPhases = (
+				B20930C67CCE61B4AA2ABF2C /* [CP] Check Pods Manifest.lock */,
+				3FEB8EF31DB7B771005D17A7 /* Sources */,
+				3FEB8EF41DB7B771005D17A7 /* Frameworks */,
+				3FEB8EF51DB7B771005D17A7 /* Resources */,
+				0960A1B439B6E4C0EAEFB2E5 /* [CP] Embed Pods Frameworks */,
+				B72DC3D66BD40A86CBA6F772 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FEB8EF91DB7B771005D17A7 /* PBXTargetDependency */,
+			);
+			name = GeoGuesserTests;
+			productName = GeoGuesserTests;
+			productReference = 3FEB8EF71DB7B771005D17A7 /* GeoGuesserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FEB8F011DB7B771005D17A7 /* GeoGuesserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEB8F111DB7B771005D17A7 /* Build configuration list for PBXNativeTarget "GeoGuesserUITests" */;
+			buildPhases = (
+				2EBE4BC3D6013EAD7D4EF0E9 /* [CP] Check Pods Manifest.lock */,
+				3FEB8EFE1DB7B771005D17A7 /* Sources */,
+				3FEB8EFF1DB7B771005D17A7 /* Frameworks */,
+				3FEB8F001DB7B771005D17A7 /* Resources */,
+				076283D1B962B147502E6AE4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FEB8F041DB7B771005D17A7 /* PBXTargetDependency */,
+			);
+			name = GeoGuesserUITests;
+			productName = GeoGuesserUITests;
+			productReference = 3FEB8F021DB7B771005D17A7 /* GeoGuesserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FEB8EDB1DB7B770005D17A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = adrewno1;
+				TargetAttributes = {
+					3FEB8EE21DB7B770005D17A7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5Q75DE3GYF;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					3FEB8EF61DB7B771005D17A7 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FEB8EE21DB7B770005D17A7;
+					};
+					3FEB8F011DB7B771005D17A7 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FEB8EE21DB7B770005D17A7;
+					};
+				};
+			};
+			buildConfigurationList = 3FEB8EDE1DB7B770005D17A7 /* Build configuration list for PBXProject "GeoGuesser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FEB8EDA1DB7B770005D17A7;
+			productRefGroup = 3FEB8EE41DB7B770005D17A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FEB8EE21DB7B770005D17A7 /* GeoGuesser */,
+				3FEB8EF61DB7B771005D17A7 /* GeoGuesserTests */,
+				3FEB8F011DB7B771005D17A7 /* GeoGuesserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FEB8EE11DB7B770005D17A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEB8EF11DB7B770005D17A7 /* LaunchScreen.storyboard in Resources */,
+				3FEB8EEE1DB7B770005D17A7 /* Assets.xcassets in Resources */,
+				3FEB8EEC1DB7B770005D17A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEB8EF51DB7B771005D17A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEB8F001DB7B771005D17A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		076283D1B962B147502E6AE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoGuesserUITests/Pods-GeoGuesserUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0960A1B439B6E4C0EAEFB2E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoGuesserTests/Pods-GeoGuesserTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1743BB9CB298C92FC40B6220 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2EBE4BC3D6013EAD7D4EF0E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E8B42C41D2C27FA120210D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoGuesser/Pods-GeoGuesser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97EA0662AF4EFC6FCDB1E172 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoGuesser/Pods-GeoGuesser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B20930C67CCE61B4AA2ABF2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B72DC3D66BD40A86CBA6F772 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoGuesserTests/Pods-GeoGuesserTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FEB8EDF1DB7B770005D17A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1B8F851DC8E17C00C56D8A /* PopoverMap.swift in Sources */,
+				3F5D7AED1DD9FB6F0080B045 /* PopoverHighscore.swift in Sources */,
+				3FEB8EE91DB7B770005D17A7 /* ViewController.swift in Sources */,
+				3FA861591DCA13F400B3CC98 /* ViewControllerExtensions.swift in Sources */,
+				3FEB8EE71DB7B770005D17A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEB8EF31DB7B771005D17A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEB8EFC1DB7B771005D17A7 /* GeoGuesserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEB8EFE1DB7B771005D17A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEB8F071DB7B771005D17A7 /* GeoGuesserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FEB8EF91DB7B771005D17A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FEB8EE21DB7B770005D17A7 /* GeoGuesser */;
+			targetProxy = 3FEB8EF81DB7B771005D17A7 /* PBXContainerItemProxy */;
+		};
+		3FEB8F041DB7B771005D17A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FEB8EE21DB7B770005D17A7 /* GeoGuesser */;
+			targetProxy = 3FEB8F031DB7B771005D17A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FEB8EEA1DB7B770005D17A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEB8EEB1DB7B770005D17A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FEB8EEF1DB7B770005D17A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEB8EF01DB7B770005D17A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FEB8F091DB7B771005D17A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FEB8F0A1DB7B771005D17A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FEB8F0C1DB7B771005D17A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF1B5CDB43F7E71FA8D84E62 /* Pods-GeoGuesser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Q75DE3GYF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Frameworks",
+				);
+				INFOPLIST_FILE = GeoGuesser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = adrewno1.GeoGuesser.23498;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		3FEB8F0D1DB7B771005D17A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AAFE63D08F7D1E7BC641BDB /* Pods-GeoGuesser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Q75DE3GYF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Frameworks",
+				);
+				INFOPLIST_FILE = GeoGuesser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = adrewno1.GeoGuesser.23498;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		3FEB8F0F1DB7B771005D17A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B71DE4BF1E105B3D7FB329 /* Pods-GeoGuesserTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeoGuesserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adrewno1.GeoGuesserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoGuesser.app/GeoGuesser";
+			};
+			name = Debug;
+		};
+		3FEB8F101DB7B771005D17A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5943D89D0336A75BF833CE9A /* Pods-GeoGuesserTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeoGuesserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adrewno1.GeoGuesserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoGuesser.app/GeoGuesser";
+			};
+			name = Release;
+		};
+		3FEB8F121DB7B771005D17A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF7E2DC867BC70367CAEB6A /* Pods-GeoGuesserUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GeoGuesserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adrewno1.GeoGuesserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GeoGuesser;
+			};
+			name = Debug;
+		};
+		3FEB8F131DB7B771005D17A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C8F2BDDE2B688A0B785084 /* Pods-GeoGuesserUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GeoGuesserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adrewno1.GeoGuesserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GeoGuesser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FEB8EDE1DB7B770005D17A7 /* Build configuration list for PBXProject "GeoGuesser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEB8F091DB7B771005D17A7 /* Debug */,
+				3FEB8F0A1DB7B771005D17A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEB8F0B1DB7B771005D17A7 /* Build configuration list for PBXNativeTarget "GeoGuesser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEB8F0C1DB7B771005D17A7 /* Debug */,
+				3FEB8F0D1DB7B771005D17A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEB8F0E1DB7B771005D17A7 /* Build configuration list for PBXNativeTarget "GeoGuesserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEB8F0F1DB7B771005D17A7 /* Debug */,
+				3FEB8F101DB7B771005D17A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEB8F111DB7B771005D17A7 /* Build configuration list for PBXNativeTarget "GeoGuesserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEB8F121DB7B771005D17A7 /* Debug */,
+				3FEB8F131DB7B771005D17A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FEB8EDB1DB7B770005D17A7 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_GeoGuesserUITests {
+  umbrella header "Pods-GeoGuesserUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
