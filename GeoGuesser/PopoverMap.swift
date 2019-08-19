@@ -10,7 +10,7 @@ class PopoverMap: UIViewController, GMSMapViewDelegate {
     let camera = GMSCameraPosition.camera(withLatitude: 40.913513 , longitude: -99.228516, zoom: 3.1)
     var mapView : GMSMapView! = nil
     @IBOutlet var navBar: UINavigationBar!
-    var senderVC : ViewController! = nil
+    var senderVC : GameViewController! = nil
     let marker = GMSMarker()
     let marker2 = GMSMarker()
     var locationName : String!

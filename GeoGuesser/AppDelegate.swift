@@ -17,8 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     let googleMapsApiKey = "AIzaSyApBF5Lm1kpVH_LmO2CBezyrcsKuQlqtjU"
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         GMSServices.provideAPIKey(googleMapsApiKey)
         GADMobileAds.configure(withApplicationID: "ca-app-pub-9488691174829717~2677503586")

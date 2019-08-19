@@ -9,7 +9,7 @@ class PopoverHighscore: UIViewController {
     @IBOutlet var playAgainView: UIView!
     @IBOutlet var highscoreLabel: UILabel!
     @IBOutlet var currentScoreLabel: UILabel!
-    var senderVC : ViewController! = nil
+    var senderVC : GameViewController! = nil
     let defaults = UserDefaults()
     
     
